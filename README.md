@@ -73,3 +73,7 @@ log_backup_count: 7
 + `log_rotate_date`: rotate转存时间，配合`rollingPolicy: daily`使用
 + `log_rotate_size`: rotate转存大小，配合`rollingPolicy: size`使用
 + `log_backup_count`:当日志文件达到转存标准时，log系统会将该日志文件进行压缩备份，这里指定了备份文件的最大个数。
+
+```
+日志单个大小有限制，保存个数有限制
+```
